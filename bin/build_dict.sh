@@ -4,7 +4,7 @@
 #
 #
 
-DICT_BUILD_TOOL_BIN=$(cd "$(dirname "$0")"; pwd)		# The directory that contains this script.
+DICT_BUILD_TOOL_BIN=$(cd "$(dirname "$0")";)		# The directory that contains this script.
 
 
 do_add_supplementary_key=${do_add_supplementary_key:-1}
